@@ -255,3 +255,20 @@ p {
 .redes-sociales img:hover {
     transform: scale(1.2);
 }
+/*Mediaqueries*/
+
+@media screen and (max-width: 992px) {
+    p {
+        font-size: 18px;
+    }
+    .contenido-header .texto {
+        font-size: 60px;
+    }
+    .menu a {
+        font-size: 20px;
+    }
+    .nosotros .titulo,
+    .producto .titulo {
+        font-size: 35px;
+    }
+}
